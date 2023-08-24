@@ -17,6 +17,8 @@
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4SystemOfUnits.hh"
+#include "GlobalVariables.hh"
+
 
 namespace B1
 {
@@ -29,6 +31,8 @@ namespace B1
 
     virtual G4VPhysicalVolume *Construct();
     virtual void ConstructSDandField();
+
+    G4double GetHydrogenRadius() const;
 
   private:
 

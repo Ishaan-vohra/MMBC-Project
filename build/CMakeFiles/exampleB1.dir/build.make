@@ -125,10 +125,24 @@ CMakeFiles/exampleB1.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/EventAction.cc.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/EventAction.cc -o CMakeFiles/exampleB1.dir/src/EventAction.cc.s
 
+CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o: CMakeFiles/exampleB1.dir/flags.make
+CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o: /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/GlobalVariables.cc
+CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o -MF CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o.d -o CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o -c /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/GlobalVariables.cc
+
+CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/GlobalVariables.cc > CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.i
+
+CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/GlobalVariables.cc -o CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.s
+
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/PrimaryGeneratorAction.cc
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o -c /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 CMakeFiles/exampleB1.dir/src/RunAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/RunAction.cc.o: /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/RunAction.cc
 CMakeFiles/exampleB1.dir/src/RunAction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/RunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/RunAction.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/RunAction.cc.o -MF CMakeFiles/exampleB1.dir/src/RunAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/RunAction.cc.o -c /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/RunAction.cc
 
 CMakeFiles/exampleB1.dir/src/RunAction.cc.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/exampleB1.dir/src/RunAction.cc.s: cmake_force
 CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o: /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/SensitiveDetector.cc
 CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o -c /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/SensitiveDetector.cc
 
 CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.s: cmake_force
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/SteppingAction.cc
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o -MF CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o -c /Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/SteppingAction.cc
 
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.i: cmake_force
@@ -187,6 +201,7 @@ exampleB1_OBJECTS = \
 "CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o" \
 "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o" \
 "CMakeFiles/exampleB1.dir/src/EventAction.cc.o" \
+"CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o" \
 "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o" \
 "CMakeFiles/exampleB1.dir/src/RunAction.cc.o" \
 "CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o" \
@@ -199,6 +214,7 @@ exampleB1: CMakeFiles/exampleB1.dir/exampleB1.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/EventAction.cc.o
+exampleB1: CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/RunAction.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o
@@ -274,7 +290,7 @@ exampleB1: /usr/local/lib/libG4global.dylib
 exampleB1: /usr/local/lib/libG4clhep.dylib
 exampleB1: /usr/local/lib/libG4ptl.0.0.2.dylib
 exampleB1: CMakeFiles/exampleB1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable exampleB1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable exampleB1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleB1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

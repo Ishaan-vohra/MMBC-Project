@@ -73,6 +73,7 @@ runManager->Initialize();
     G4String command = "/control/execute ";
     G4String fileName = argv[1];
     UImanager->ApplyCommand(command+fileName);
+    UImanager->ApplyCommand("/run/beamOn " + G4UIcommand::ConvertToString(numEvents));
   }
   else {
     // interactive mode

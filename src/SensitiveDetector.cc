@@ -14,7 +14,6 @@ namespace B1
     for (const auto &suffix : detector_names)
     {
       hEnergy_map[suffix] = new TH1D(("hEnergy_" + suffix).c_str(), ("Geantino Energy Distribution for Detector at (" + suffix + ")").c_str(), 200, 0, 7);
-      hScaledEnergy_map[suffix] = new TH1D(("hScaledEnergy_" + suffix).c_str(), ("Geantino Scaled Energy Distribution for Detector at (" + suffix + ")").c_str(), 200, 0, 7);
       hXMomentum_map[suffix] = new TH1D(("hXMomentum_" + suffix).c_str(), ("Geantino X Momentum Distribution for Detector at (" + suffix + ")").c_str(), 100, 0, 0);
       hYMomentum_map[suffix] = new TH1D(("hYMomentum_" + suffix).c_str(), ("Geantino Y Momentum Distribution for Detector at (" + suffix + ")").c_str(), 100, 0, 0);
       hZMomentum_map[suffix] = new TH1D(("hZMomentum_" + suffix).c_str(), ("Geantino Z Momentum Distribution for Detector at (" + suffix + ")").c_str(), 100, 0, 0);
@@ -29,9 +28,8 @@ namespace B1
     TFile *file = new TFile("output.root", "RECREATE");
 
     // Scaling info
-    G4double pot = 2500000.;
-    G4double detectorArea = TMath::Pi() * 2.25 * 10000.; // Pi * r^2 * 10000 (such that area is in units of cm^2)
-    G4double energyBinWidth = 7. / 200.;                 // 0 to 7 GeV range, 200 bins
+    G4double detectorArea = TMath::Pi() * pow(hydrogenRadius, 2) * 10000.; // Pi * r^2 * 10000 (such that area is in units of cm^2), hydrogenRadius is from globalVariables
+    G4double pot = ((25*100000)/2394872)*numEvents; // # of protons per event * # of events = # of protons
 
     // Write histograms using loop
     for (const auto &suffix : detector_names)
@@ -39,22 +37,35 @@ namespace B1
       TDirectory *dir = file->mkdir(("dir_" + suffix).c_str());
       dir->cd();
 
+      G4double nBinsX = hEnergy_map[suffix]->GetNbinsX();
+      G4double xMin = hEnergy_map[suffix]->GetXaxis()->GetXmin();
+      G4double xMax = hEnergy_map[suffix]->GetXaxis()->GetXmax();
+      G4double binWidth = (xMax - xMin) / nBinsX;
+      hEnergy_map[suffix]->Scale(1 / (pot * detectorArea * binWidth));
       hEnergy_map[suffix]->Write();
-
-      // Scale then write
-      G4cerr << "pot: " << pot << G4endl;
-      G4cerr << "detector area: " << detectorArea << G4endl;
-      G4cerr << "bin width: " << energyBinWidth << G4endl;
-      G4cerr << "scale factor: " << 1 / (pot * detectorArea * energyBinWidth) << G4endl;
-      hScaledEnergy_map[suffix]->SetDrawOption("HIST p"); // Doesn't work??
-      hScaledEnergy_map[suffix]->Scale(1 / (pot * detectorArea * energyBinWidth));
-      hScaledEnergy_map[suffix]->Sumw2();           // Also scales uncertainty
-
-      hScaledEnergy_map[suffix]->Write();
-
+      //
+      nBinsX = hXMomentum_map[suffix]->GetNbinsX();
+      xMin = hXMomentum_map[suffix]->GetXaxis()->GetXmin();
+      xMax = hXMomentum_map[suffix]->GetXaxis()->GetXmax();
+      binWidth = (xMax - xMin) / nBinsX;
+      hXMomentum_map[suffix]->Scale(1 / (pot * detectorArea * binWidth));
       hXMomentum_map[suffix]->Write();
+      //
+      nBinsX = hYMomentum_map[suffix]->GetNbinsX();
+      xMin = hYMomentum_map[suffix]->GetXaxis()->GetXmin();
+      xMax = hYMomentum_map[suffix]->GetXaxis()->GetXmax();
+      binWidth = (xMax - xMin) / nBinsX;
+      hYMomentum_map[suffix]->Scale(1 / (pot * detectorArea * binWidth));
       hYMomentum_map[suffix]->Write();
+      //
+      nBinsX = hZMomentum_map[suffix]->GetNbinsX();
+      xMin = hZMomentum_map[suffix]->GetXaxis()->GetXmin();
+      xMax = hZMomentum_map[suffix]->GetXaxis()->GetXmax();
+      binWidth = (xMax - xMin) / nBinsX;
+      hZMomentum_map[suffix]->Scale(1 / (pot * detectorArea * binWidth));
       hZMomentum_map[suffix]->Write();
+      //
+
       hEntryNumber_map[suffix]->Write();
       hWeight_map[suffix]->Write();
 
@@ -93,7 +104,6 @@ namespace B1
       // Skip the first 24 characters of volume name and fill the map entry corresponding to that result (e.g "0_0_574")
 
       hEnergy_map[volumeName.substr(24)]->Fill(energy);
-      hScaledEnergy_map[volumeName.substr(24)]->Fill(energy); // Also fill scaled energy with energy
       hXMomentum_map[volumeName.substr(24)]->Fill(momentumX);
       hYMomentum_map[volumeName.substr(24)]->Fill(momentumY);
       hZMomentum_map[volumeName.substr(24)]->Fill(momentumZ);

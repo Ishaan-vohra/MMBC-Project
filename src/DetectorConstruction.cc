@@ -29,8 +29,7 @@ namespace B1
     G4LogicalVolume *worldLogical = new G4LogicalVolume(worldBox, fHydrogenGasMaterial, "World_Logical");
 
     // Hydrogen sphere
-    G4double hydrogenRadius = 1.5 * m;
-    G4Sphere *hydrogenSphere = new G4Sphere("HydrogenSphere", 0, hydrogenRadius, 0. * deg, 360. * deg, 0. * deg, 180. * deg);
+    G4Sphere *hydrogenSphere = new G4Sphere("HydrogenSphere", 0, hydrogenRadius, 0. * deg, 360. * deg, 0. * deg, 180. * deg); //hydrogenRadius defined in globalvariables
 
     // Create logical volumes map
     for (const auto &name : detector_names)
@@ -63,4 +62,5 @@ namespace B1
       pair.second->SetSensitiveDetector(hydrogenSD);
     }
   }
+
 }

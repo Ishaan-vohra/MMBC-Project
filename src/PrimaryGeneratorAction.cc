@@ -55,7 +55,7 @@ B1::PrimaryGeneratorAction::~PrimaryGeneratorAction()
   delete pz;
   delete E;
   delete wgt;
-    G4cout << "number of entriesss: " << numEntries << G4endl;
+    G4cout << "total number of entriesss: " << numEntries << G4endl;
 }
 
 void B1::PrimaryGeneratorAction::GeneratePrimaries(G4Event *anEvent)

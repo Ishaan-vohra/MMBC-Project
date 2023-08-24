@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/ActionInitialization.cc" "CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o.d"
   "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/DetectorConstruction.cc" "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o.d"
   "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/EventAction.cc" "CMakeFiles/exampleB1.dir/src/EventAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/EventAction.cc.o.d"
+  "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/GlobalVariables.cc" "CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o.d"
   "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o.d"
   "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/RunAction.cc" "CMakeFiles/exampleB1.dir/src/RunAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/RunAction.cc.o.d"
   "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/src/SensitiveDetector.cc" "CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/SensitiveDetector.cc.o.d"

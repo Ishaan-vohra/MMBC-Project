@@ -43,6 +43,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
   "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/CMakeLists.txt"
+  "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/batch.mac"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"
@@ -142,6 +143,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "exampleB1.out"
   "init_vis.mac"
   "vis.mac"
+  "batch.mac"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

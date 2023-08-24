@@ -283,6 +283,30 @@ src/EventAction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/EventAction.cc.s
 .PHONY : src/EventAction.cc.s
 
+src/GlobalVariables.o: src/GlobalVariables.cc.o
+.PHONY : src/GlobalVariables.o
+
+# target to build an object file
+src/GlobalVariables.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o
+.PHONY : src/GlobalVariables.cc.o
+
+src/GlobalVariables.i: src/GlobalVariables.cc.i
+.PHONY : src/GlobalVariables.i
+
+# target to preprocess a source file
+src/GlobalVariables.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.i
+.PHONY : src/GlobalVariables.cc.i
+
+src/GlobalVariables.s: src/GlobalVariables.cc.s
+.PHONY : src/GlobalVariables.s
+
+# target to generate assembly for a file
+src/GlobalVariables.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.s
+.PHONY : src/GlobalVariables.cc.s
+
 src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
 .PHONY : src/PrimaryGeneratorAction.o
 
@@ -405,6 +429,9 @@ help:
 	@echo "... src/EventAction.o"
 	@echo "... src/EventAction.i"
 	@echo "... src/EventAction.s"
+	@echo "... src/GlobalVariables.o"
+	@echo "... src/GlobalVariables.i"
+	@echo "... src/GlobalVariables.s"
 	@echo "... src/PrimaryGeneratorAction.o"
 	@echo "... src/PrimaryGeneratorAction.i"
 	@echo "... src/PrimaryGeneratorAction.s"

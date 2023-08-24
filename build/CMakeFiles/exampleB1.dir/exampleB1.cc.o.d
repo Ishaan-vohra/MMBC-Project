@@ -1105,6 +1105,8 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
   /opt/local/libexec/root6/include/root/TH1F.h \
   /opt/local/libexec/root6/include/root/TMath.h \
   /opt/local/libexec/root6/include/root/TError.h \
+  /Users/ishaanvohra/Desktop/toy/g4sim/aug20/include/GlobalVariables.hh \
+  /usr/local/include/Geant4/G4SystemOfUnits.hh \
   /usr/local/include/Geant4/G4SDManager.hh \
   /usr/local/include/Geant4/G4SDStructure.hh \
   /usr/local/include/Geant4/G4HCtable.hh \
@@ -1133,7 +1135,6 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
   /usr/local/include/Geant4/G4Sphere.icc \
   /usr/local/include/Geant4/G4Trd.hh /usr/local/include/Geant4/G4Trd.icc \
   /usr/local/include/Geant4/G4PVPlacement.hh \
-  /usr/local/include/Geant4/G4SystemOfUnits.hh \
   /Users/ishaanvohra/Desktop/toy/g4sim/aug20/include/ActionInitialization.hh \
   /usr/local/include/Geant4/G4VUserActionInitialization.hh \
   /usr/local/include/Geant4/G4RunManagerFactory.hh \

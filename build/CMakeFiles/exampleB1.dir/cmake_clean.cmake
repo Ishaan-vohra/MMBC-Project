@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o.d"
   "CMakeFiles/exampleB1.dir/src/EventAction.cc.o"
   "CMakeFiles/exampleB1.dir/src/EventAction.cc.o.d"
+  "CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o"
+  "CMakeFiles/exampleB1.dir/src/GlobalVariables.cc.o.d"
   "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o"
   "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o.d"
   "CMakeFiles/exampleB1.dir/src/RunAction.cc.o"

@@ -45,6 +45,7 @@ set(EXAMPLEB1_SCRIPTS
   exampleB1.out
   init_vis.mac
   vis.mac
+  batch.mac
   # run1.mac
   # run2.mac
 
