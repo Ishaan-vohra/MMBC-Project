@@ -11,5 +11,5 @@ making its results less physically accurate.
 
 ### pos-optimization
 Contains a C++ based simulation to calculate fluxes and event 
-rates at various detector locations. Provides more physically accurate
-fluxes and event rates.
+rates at various detector locations. This simulation is slower, 
+but it provides more physically accurate fluxes and event rates.
