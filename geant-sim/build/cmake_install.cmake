@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ishaanvohra/Desktop/toy/g4sim/aug20
+# Install script for directory: /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,12 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/exampleB1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim/build/exampleB1")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
-      -delete_rpath "/opt/local/libexec/root6/lib/root"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1")
@@ -59,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

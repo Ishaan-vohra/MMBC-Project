@@ -39,6 +39,7 @@ namespace B1
 
     G4int entryIter; //ROOT file entry iterator
     G4int numEntries; //Total number of entries
+    bool fallbackMode = false;
   };
 
 }

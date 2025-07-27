@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ishaanvohra/Desktop/toy/g4sim/aug20
+CMAKE_SOURCE_DIR = /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ishaanvohra/Desktop/toy/g4sim/aug20/build
+CMAKE_BINARY_DIR = /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim/build
 
 # Utility rule file for B1.
 
@@ -81,6 +81,6 @@ CMakeFiles/B1.dir/clean:
 .PHONY : CMakeFiles/B1.dir/clean
 
 CMakeFiles/B1.dir/depend:
-	cd /Users/ishaanvohra/Desktop/toy/g4sim/aug20/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ishaanvohra/Desktop/toy/g4sim/aug20 /Users/ishaanvohra/Desktop/toy/g4sim/aug20 /Users/ishaanvohra/Desktop/toy/g4sim/aug20/build /Users/ishaanvohra/Desktop/toy/g4sim/aug20/build /Users/ishaanvohra/Desktop/toy/g4sim/aug20/build/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim/build /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim/build /Users/ishaanvohra/Desktop/toy/MMBC-Project/geant-sim/build/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/B1.dir/depend
 
