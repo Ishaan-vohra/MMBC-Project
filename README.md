@@ -1,7 +1,7 @@
 # MMBC-Project
 Repository for Ishaan Vohra's work on the Fermilab MMBC project.
 
-Contact details: ivohra@exeter.edu or ishaanklv@gmail.com
+Contact details: ivohra@mit.edu or ishaanklv@gmail.com
 
 ### geant-sim
 Contains a Geant4 simulation to calculate fluxes and event 
